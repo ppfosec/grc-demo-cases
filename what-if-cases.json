@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Risk",
+    "changeLabel": "The device is confirmed to be in a lab",
+    "originalFact": "The same laptop is missing from the MDM inventory twice. Its owner and an open service desk item are known.",
+    "changedFact": "The device is confirmed as a lab asset with no route to production. The lab boundary is documented.",
+    "originalMove": "Check the provisioning process and extend the work already open. Keep both dates as evidence that the miss repeated.",
+    "changedMove": "Verify that the lab boundary still holds, then exclude this asset from the production control story. Do not close other device findings by association."
+  },
+  {
+    "name": "Controls",
+    "changeLabel": "The exception has expired",
+    "originalFact": "A public-assets setting matches a current, approved design exception.",
+    "changedFact": "The same setting is still present, but the approved exception expired yesterday.",
+    "originalMove": "Keep the accepted signal tied to that asset and reason. Watch for changes outside the approved scope.",
+    "changedMove": "Ask the owner whether the control claim still holds. Renew, narrow, or end the exception before treating the signal as accepted."
+  },
+  {
+    "name": "Vendors",
+    "changeLabel": "The lab connects to customer transcripts",
+    "originalFact": "The CRM team evaluates Nimbus with invented calls inside a documented lab boundary.",
+    "changedFact": "The CRM team connects Nimbus to live customer transcripts. The vendor report has not changed.",
+    "originalMove": "Proceed with the bounded evaluation and name the person who will end access after the trial.",
+    "changedMove": "Reopen the engagement decision. Check retention, the production connector, and who can accept the new data path."
+  },
+  {
+    "name": "Judgment",
+    "changeLabel": "Two useful conversations are now recorded",
+    "originalFact": "A past rule looks relevant, but there is no record of how this team has worked with Security.",
+    "changedFact": "Two relevant conversations with this team are now documented, including how it handled an earlier trade-off.",
+    "originalMove": "Use the rule to frame questions. Leave the team-history judgment unknown until someone supplies evidence.",
+    "changedMove": "Read those conversations against the rule's limits and counterexample. The new history permits a better judgment, not an automatic one."
+  }
+]
